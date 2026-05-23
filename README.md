@@ -4,4 +4,6 @@
 
 Install the required Python packages first:
 
-```python -m pip install -r requirements.txt```
+```
+python -m pip install -r requirements.txt
+```

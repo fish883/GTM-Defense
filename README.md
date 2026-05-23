@@ -12,4 +12,10 @@ If you want to download the model locally, please refer to [here](https://huggin
 
 ## Evaluation
 
+To test the defense effectiveness of our method, please run:
 
+```
+cd ./code/eval
+python inference.py --model-path /Qwen/Qwen2-VL-7B-Instruct --device cude:0 --defense our
+python inference.py --model-path /Qwen/Qwen2-VL-7B-Instruct --device cude:0 --defense wo
+```

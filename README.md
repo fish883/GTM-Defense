@@ -19,3 +19,6 @@ cd ./code/eval
 python inference.py --model-path /Qwen/Qwen2-VL-7B-Instruct --device cude:0 --defense our
 python inference.py --model-path /Qwen/Qwen2-VL-7B-Instruct --device cude:0 --defense wo
 ```
+## Generate Prompt Injection Image
+
+If you want to generate customized prompt injection images, please refer to the code under ```attack```.
